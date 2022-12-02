@@ -65,6 +65,23 @@ p {
   /* justify-content: space-between; */
 }
 
+#navbar ul {
+  width: auto;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /* border: 2px solid #000; */
+}
+
+#navbar li {
+  font-size: 1rem;
+ 
+}
+
+#navbar li a {
+  padding: 0 0.43rem;
+}
+
 #navbar::before {
 
   height: 8rem;
@@ -117,6 +134,11 @@ p {
   height: 100%;
   width: 100%;
 
+}
+
+
+.roller {
+  width: 200px;
 }
 /* 
 .thumb-box {
@@ -230,11 +252,14 @@ p {
 
 
 .chef-list img {
-  width: 100%;
   height: auto;
 
 }
-
+.social {
+ 
+  height: 330px;
+  
+}
 
 
 .contact-left {
